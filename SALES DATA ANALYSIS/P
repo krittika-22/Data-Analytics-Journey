@@ -1,1 +1,23 @@
+Sales Data Analysis →
 
+1. Top/Bottom 5 products by Sales / Profit / Quantity sold.
+
+
+2. How do sales trends vary over time?
+(Daily, Monthly, Quarterly, Annually)
+
+
+3. Average discount offered in each discount category.
+
+
+4. Show relationship between Sales & Profit.
+
+
+5. Compare Sales / Profit / Quantity sold between 2 periods selected by the user.
+
+
+6. Total number of orders.
+
+
+7. Show Sales / Profit / Discount / Net Sales / All remaining fields for each order that could be filtered using visual filters.
+(Product / Date / Customer ID / Promo / Category)
