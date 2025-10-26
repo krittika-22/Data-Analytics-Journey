@@ -1,0 +1,63 @@
+🌾 Agriculture Data Analysis
+🚀 Project Overview
+
+This project focuses on analyzing agricultural data such as rainfall, temperature, crop yield, and irrigation trends over different years and regions.
+The dataset was sourced from an AWS S3 bucket, processed in Snowflake, and visualized using Power BI to create insightful reports on rainfall patterns, seasonal variations, and crop performance.
+
+🧩 Project Workflow
+1. Data Source (AWS S3)
+
+Uploaded the raw agriculture dataset (AGRICULTURE_DATA.csv) into an AWS S3 bucket.
+
+The dataset includes columns like Year, Location, Rainfall, Temperature, Crops, Soil_Type, Irrigation, and more.
+
+2. Data Integration (Snowflake)
+
+Created a new database and table in Snowflake.
+
+Used Snowflake’s external stage to load data directly from the S3 bucket.
+
+3. Data Cleaning & Transformation
+
+📊 Data Visualization (Power BI)
+
+The cleaned dataset was imported into Power BI Desktop to create an interactive dashboard named “Rainfall Analysis”.
+
+Report Highlights:
+
+Average Rainfall,temperature etc  by Year,season,crop type,location  and many more.
+
+Which years/regions received higher rainfall
+
+How seasons affect rainfall and crop growth
+
+Regional crop distribution and weather impact
+
+🛠️ Tools & Technologies Used
+Tool	Purpose
+AWS S3--	Data storage and retrieval
+Snowflake	Data warehouse --for cleaning and transformation
+SQL--	Data manipulation and grouping
+Power BI--	Visualization and dashboard creation
+
+
+📁 Agriculture-Data-Analysis
+ ┣ 📄 README.md
+ ┣ 📄 agriculture_data.csv
+ ┣ 📄 snowflake_queries.sql
+ ┣ 📄 powerbi_dashboard.pbix
+ ┗ 📸 screenshots/
+     ┣ rainfall_analysis.png
+     ┗ snowflake_code.png
+
+
+Key Learnings
+
+Integration between cloud storage (AWS) and data warehouse (Snowflake)
+
+SQL-based data cleaning and grouping
+
+Designing interactive Power BI dashboards for insights
+
+Understanding rainfall and crop yield relationships
+
